@@ -1,6 +1,6 @@
 
 /**
- * Applying Kahn's algorithm.
+ * Applying Kahn's algorithm, applying the JS in-built array.
  * 
  * @param {number} numCourses
  * @param {number[][]} prerequisites
