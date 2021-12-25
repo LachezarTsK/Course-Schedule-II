@@ -22,7 +22,7 @@ var findOrder = function (numCourses, prerequisites) {
         }
     }
 
-    //'index_scheduledCourses == -1' i.e. filled the array from back to front all the courses have been visited.
+    //'index_scheduledCourses == -1' i.e. filled the array from back to front, all the courses have been visited.
     return index_scheduledCourses === -1 ? scheduledCourses_topologicallySorted : [];
 };
 
